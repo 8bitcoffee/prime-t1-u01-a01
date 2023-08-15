@@ -5,13 +5,32 @@ header {
     text-align:center;
 }
 /* Add a fun background color to the main element */
-
+main {
+    background-color: #212121;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    align-content: center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+    color: rgba(238, 152, 31);
+    font-style:italic;
+}
 /* Put a border around your image */
-
+img {
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 20px 0 rgba(238, 152, 31, 0.6);
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 5px;
+}
 /* Change the font-family of your list */
-
+ul {
+    font-family: fantasy;
+}
 /* Add a background color to the footer element */
+footer {
+    background-color:teal ;
+}
